@@ -90,7 +90,7 @@ desired_value= int(input("Введите общий желаемый резул�
 result_days = 1
 result_km = result
 while result_km < desired_value:
-        result = result + 0.1 * result
-        result_days += 1
-        result_km = result_km + result
+    result = result + 0.1 * result
+    result_days += 1
+    result_km = result_km + result
 print(f"Вы достигнете требуемых показателей на: {result_days}")
